@@ -1,0 +1,291 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+    
+}
+ /* style navigation bar container */
+.topnav{
+background-color: white;
+padding: 3px;
+overflow: hidden;
+display: block;
+
+}
+/* style link class in topnav section */
+.link {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+    float: left;
+}
+/* style image in link class present in topnav class */
+#firstimage{
+    width: 40px;
+    height: 40px;
+    padding-left: 35px;
+    text-shadow: none;
+}
+/* style icon present in navigation bar  */
+.icon{
+    
+    padding: 10px 10px 1px 300px;
+    display: flex
+    
+}
+/* p tag in icon class in navigation bar */
+.icon >p{
+    padding: 1px 1px 1px 5px;
+}
+/* style image present in icon class */
+.icon > img{
+    width: 30px;
+    height: 30px;
+    padding: 5px 40px 7px 10px;
+    
+}
+/* style image present in icon  */
+#work{
+    border-left: 2px solid rgb(177, 174, 174);
+    padding: 5px 8px 5px 8px;
+}
+/* style search in link class present in navigation bar */
+#search{
+    padding: 7px 30px 7px 7px;
+    background-color: rgb(223, 222, 222);
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 5px;
+    margin-top: 4px;
+    border-radius: 5px;
+    border: solid rgb(212, 212, 212) 2px;
+}
+/* style whole container for linkedin */
+.container{
+    display: grid;
+    background-color: rgb(223, 222, 222);
+    gap: 10px;
+    padding: 10px;
+    height: auto;
+    padding: 20px 40px 20px 40px;
+    background-attachment: fixed;
+    
+}
+/* style header section */
+.header{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    grid-column: 2 / span 3;
+    grid-row: 1;
+    /* width: 800px; */
+    /* height: 50px; */
+    border: solid rgb(221, 220, 220);
+    border-radius: 8px;
+
+}
+/* style class= start_post present in header section */
+.start_post{
+    color: rgb(92, 83, 83);
+    padding: 10px 10px 10px 1px;
+}
+/* style image in header section */
+#post_image{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 10px;
+}
+.start_post_icon{
+    padding: 2px;
+    display: inline-flex;
+    
+    
+}
+.start_post_icon >img{
+    width: 20px;
+    height: 20px;
+    padding: 8px 8px 0px 30px;
+    
+}
+
+.start_post_icon >p{
+    padding: 10px 30px 6px 1px;
+}
+.post{
+    float: left;
+    border:solid rgb(165, 162, 162) 2px;
+    padding: 13px 60% 13px 13px;
+    border-radius: 15px;
+}
+
+.profile{
+    background-color: white;
+    text-align: center;
+    font-size: 12px;
+    grid-column: 1;
+    grid-row: 1 / span 3;
+    border: solid rgb(221, 220, 220);
+    border-radius: 8px;
+
+}
+.profile_photo{
+    background-color: rgb(64, 121, 106);
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 8px 8px 0px 0px;
+    
+}
+.profile_photo >img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.profile >h6{
+    color: rgb(94, 94, 190);
+    padding-top: 5px;
+}
+.connect{
+    color: rgb(92, 91, 91);
+    text-align: left;
+    padding-left: 10px;
+}
+.profile > p{
+    text-align: left;
+    padding-left: 10px;
+}
+.my_items{
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+.access{
+    padding-top: 10px;
+}
+.orange{
+    text-align: left;
+    padding-left: 10px;
+    
+}
+#orange{
+    width: 10px;
+    height: 10px;
+    float: left;
+    padding-top: 7px;
+    
+}
+.orange >h5{
+    color: rgb(92, 88, 88);
+    text-align: right;
+    float: left;
+    padding-left: 10px;
+    padding-top: 7px;
+    
+}
+
+.mid{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    grid-row: 2 / span 7;
+    grid-column: 2 /span 3;
+    /* width: 800px; */
+    /* height: 300px; */
+    border: solid rgb(221, 220, 220);
+    border-radius: 8px;
+
+}
+.mid >img{
+    width: 600px;
+    height: 400px;
+}
+.left-bottom{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    grid-row: 4;
+    grid-column: 1;
+    /* width: 140px; */
+    /* height: 200px; */
+    border: solid rgb(221, 220, 220);
+    border-radius: 8px;
+
+
+}
+
+.group >p{
+    color: rgb(67, 67, 196);
+    text-align: left;
+    padding: 8px;
+
+}
+.group >h3{
+    color: black;
+    float: right;
+}
+.left-bottom >h4{
+    color: rgb(85, 83, 83);
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-right{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    grid-column: 5;
+    grid-row: 1 / span 3;
+    /* width: 140px; */
+    /* height: 200px; */
+    border: solid rgb(221, 220, 220);
+    border-radius: 8px;
+
+}
+.news{
+    padding: 10px;
+    text-align: left;
+    font-size: 15px;
+
+}
+.news > li >a {
+    text-decoration: none;
+    color: black;
+    
+}
+.top-right >h3{
+    text-align: left;
+    font-size: 20px;
+}
+
+.bottom-right{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    grid-row: 4 /sapn 6;
+    grid-column: 5;
+    /* width: 140px; */
+    /* height:200px; */
+    border: solid rgb(221, 220, 220);
+    border-radius: 8px;
+
+}
+.ads{
+    text-align: right;
+    font-size: 20px;
+}
+#adsimage{
+    width: 220px;
+    height: auto;
+}
